@@ -28,8 +28,8 @@ Vertex::Vertex(const string &name, double latitudeDegrees, double longitudeDegre
 
 	this->name = name;
 
-	this->LatitudeRadians = (latitudeDegrees)* ((M_PI) / 180);
-	this->LongitudeRadians = (longitudeDegrees)* ((M_PI) / 180);
+	this->latitudeRadians = (latitudeDegrees)* ((M_PI) / 180);
+	this->longitudeRadians = (longitudeDegrees)* ((M_PI) / 180);
 
 	PrepareForShortestPathAlgorithm();
 }
